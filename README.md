@@ -49,7 +49,7 @@ Permite administrar productos, ventas, gastos y generar reportes en tiempo real.
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 📁 Estructura del proyecto
 
 
 src/
@@ -62,7 +62,6 @@ src/
 ├── firebase.js
 ├── App.jsx
 └── main.jsx
-
 
 ---
 

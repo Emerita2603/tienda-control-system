@@ -48,21 +48,20 @@ Sistema web para la gestión de una tienda pequeña, desarrollado con React y Fi
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 📁 Estructura del proyecto
+
+```
 src/
-│
 ├── views/
-│ ├── Login.jsx
-│ ├── Productos.jsx
-│ ├── Ventas.jsx
-│ ├── Gastos.jsx
-│ └── Reportes.jsx
-│
+│   ├── Login.jsx
+│   ├── Productos.jsx
+│   ├── Ventas.jsx
+│   ├── Gastos.jsx
+│   └── Reportes.jsx
 ├── firebase.js
 ├── App.jsx
 └── main.jsx
-
----
+```
 
 ## 🔗 Estructura de base de datos (Firestore)
 

@@ -48,7 +48,7 @@ Sistema web para la gestión de una tienda pequeña, desarrollado con React y Fi
 
 ---
 
-## 📁 Estructura del proyecto
+## 🗂️ Estructura del proyecto
 
 ```
 src/
@@ -63,10 +63,13 @@ src/
 └── main.jsx
 ```
 
+---
+
 ## 🔗 Estructura de base de datos (Firestore)
 
 ### 📦 productos
 
+```
 nombre
 categoria
 precioCompra
@@ -74,10 +77,11 @@ precioVenta
 stock
 userId
 fecha
-
+```
 
 ### 💸 ventas
 
+```
 productoId
 productoNombre
 cantidad
@@ -87,16 +91,17 @@ total
 ganancia
 userId
 fecha
-
+```
 
 ### 🧾 gastos
 
+```
 descripcion
 categoria
 monto
 userId
 fecha
-
+```
 
 ---
 
@@ -112,3 +117,15 @@ Cada usuario tiene sus propios datos gracias a:
 
 ```js
 userId: auth.currentUser.uid
+```
+
+---
+
+## ⚙️ Instalación
+
+```bash
+npm install
+npm run dev
+```
+
+---
